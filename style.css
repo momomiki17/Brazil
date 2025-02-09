@@ -1,0 +1,155 @@
+/*--General Styles--*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/*--Header--*/
+header {
+    background-color: #28a745; /* สีเขียว */
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+    position: relative;
+}
+
+header h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+/* ปรับขนาด GIF ให้มีความกว้าง 1920px และสูง 480px */
+.banner-image {
+    width: 100%; /* กว้างเต็มหน้าจอ */
+    max-width: 1800px; /* จำกัดความกว้างสูงสุดที่ 1920px */
+    height: 350px; /* ความสูง 480px */
+    object-fit: cover; /* ให้ภาพยืดให้เต็มกรอบแต่ไม่เสียสัดส่วน */
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/*--Button Styles--*/
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: -50px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    width: 220px;
+    background-color: #28a745; /* สีเขียว */
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    transform: scale(1);
+}
+
+.btn:hover {
+    background-color: #218838; /* สีเขียวเข้มเมื่อ hover */
+    transform: scale(1.05);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+.btn span {
+    display: block;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+/*--Page Content--*/
+.page-content {
+    padding: 30px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 20px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.page-content h2 {
+    font-size: 2.5rem;
+    color: #28a745;
+    margin-bottom: 15px;
+}
+
+.page-content p {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.page-content:hover {
+    transform: translateY(-5px);
+}
+/* General Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif; /* เปลี่ยนเป็นฟอนต์ที่อ่านง่าย */
+}
+
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6; /* เพิ่มระยะห่างระหว่างบรรทัด */
+    font-size: 18px; /* กำหนดขนาดฟอนต์ */
+    padding: 0 10px; /* เพิ่มระยะขอบเล็กน้อย */
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    padding: 30px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 10px; /* เพิ่มมุมโค้งให้กับ header */
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    letter-spacing: 2px; /* เพิ่มระยะห่างระหว่างตัวอักษร */
+    text-transform: uppercase; /* เปลี่ยนข้อความให้เป็นตัวพิมพ์ใหญ่ */
+    font-weight: bold;
+}
+
+/* Navigation Bar */
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+

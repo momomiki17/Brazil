@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ประเทศบราซิล</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 18px;
+            color: white;
+            text-align: center;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            height: 60px;
+            width: 180px;
+            margin: 10px;
+        }
+
+        /* ปุ่มที่ 1 - เพิ่มหลายๆ รูปภาพเป็นพื้นหลัง */
+        .btn-1 {
+            background-image: 
+                url('file:///C:/Users/krong/Downloads/Brasil%20(5).gif'), /* รูปแรก */
+                url('file:///C:/Users/krong/Downloads/Brasil%20(5).gif'); /* รูปที่สอง */
+            background-repeat: no-repeat, no-repeat;
+            background-size: contain, contain;
+            background-position: left, right;
+            color: black;
+        }
+
+        .btn-1:hover {
+            background-color: #45a049;
+        }
+
+        /* ปุ่มที่ 2 */
+        .btn-2 {
+            background-image: 
+                url('file:///C:/Users/krong/Downloads/Brasil%20(11).gif'), /* รูปแรก */
+                url('file:///C:/Users/krong/Downloads/Brasil%20(11).gif'); /* รูปที่สอง */
+            background-repeat: no-repeat, no-repeat;
+            background-size: contain, contain;
+            background-position: left, right;
+            color: black;
+        }
+
+     
+        /* ปุ่มที่ 3 */
+        .btn-3 {
+            background-image: 
+                url('file:///C:/Users/krong/Downloads/Brasil%20(3).gif'), /* รูปแรก */
+                url('file:///C:/Users/krong/Downloads/Brasil%20(3).gif'); /* รูปที่สอง */
+            background-repeat: no-repeat, no-repeat;
+            background-size: contain, contain;
+            background-position: left, right;
+            color: black;
+        }
+        /* ปุ่มที่ 4 */
+        .btn-4 {
+            background-image: 
+                url('file:///C:/Users/krong/Downloads/Brasil%20(12).gif'), /* รูปแรก */
+                url('file:///C:/Users/krong/Downloads/Brasil%20(12).gif'); /* รูปที่สอง */
+            background-repeat: no-repeat, no-repeat;
+            background-size: contain, contain;
+            background-position: left, right;
+            color: black;
+        }/* ปุ่มที่ 5 */
+        .btn-5 {
+            background-image: 
+                url('file:///C:/Users/krong/Downloads/Brasil%20(2).gif'), /* รูปแรก */
+                url('file:///C:/Users/krong/Downloads/Brasil%20(2).gif'); /* รูปที่สอง */
+            background-repeat: no-repeat, no-repeat;
+            background-size: contain, contain;
+            background-position: left, right;
+            color: black;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- เบนเนอร์ (GIF) -->
+    <header>
+        <div class="header-content">
+            <h1>ยินดีต้อนรับสู่เว็บไซต์ของเรา</h1>
+            <!-- เพิ่มไฟล์ GIF ที่วนซ้ำ -->
+            <img src="file:///C:/Users/krong/Downloads/Brasil.gif" alt="Welcome GIF" class="banner-image" loop>
+        </div>
+    </header>
+
+    <!-- ปุ่มกด -->
+    <div class="button-container">
+        <a href="History.html" class="btn btn-1"></a>
+        <a href="Geography.html" class="btn btn-2"></a>
+        <a href="Economy.html" class="btn btn-3"></a>
+        <a href="Politics.html" class="btn btn-4"></a>
+        <a href="Creator.html" class="btn btn-5"></a>
+    </div>
+ 
+</body>
+</html>
